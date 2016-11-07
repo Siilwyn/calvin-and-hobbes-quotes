@@ -1,0 +1,29 @@
+{
+  "name": "calvin-and-hobbes-quotes",
+  "version": "1.0.0",
+  "description": "Get Calvin and Hobbes quotes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siilwyn/calvin-and-hobbes-quotes.git"
+  },
+  "bin": "bin/cli.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "ava ./src/test.js",
+    "lint": "eslint ./src/ ./bin/"
+  },
+  "keywords": [
+    "calvin",
+    "hobbes",
+    "quotes"
+  ],
+  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.9.1"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}

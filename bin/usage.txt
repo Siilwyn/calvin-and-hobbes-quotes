@@ -1,0 +1,11 @@
+Usage:
+  $ calvin-and-hobbes-quotes
+
+Commands:
+  Options:
+    -h, --help      Print usage
+    -a, --all       Print all Calvin and Hobbes quotes
+
+Examples:
+  $ calvin-and-hobbes-quotes                      # prints a random quote
+  $ calvin-and-hobbes-quotes -a                   # lists all quotes
