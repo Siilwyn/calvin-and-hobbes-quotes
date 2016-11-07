@@ -4,7 +4,7 @@
 The quote list is just a [JSON file](src/quotes.json) and can be used wherever.  
 *I tried picking quotes that are not too lengthy and that don't need context.*
 
-![](a-best-friend.jpg)
+![things are never quite as scary when you've got a best friend](https://cdn.rawgit.com/Siilwyn/calvin-and-hobbes-quotes/master/a-best-friend.jpg)
 
 All rights reserved to Bill Watterson for both the image above and all these brilliant quotes.
 
