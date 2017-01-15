@@ -48,10 +48,12 @@ Commands:
   Options:
     -h, --help      Print usage
     -a, --all       Print all Calvin and Hobbes quotes
+    -s, --say       Speak with cowsay
 
 Examples:
   $ calvin-and-hobbes-quotes                      # prints a random quote
   $ calvin-and-hobbes-quotes -a                   # lists all quotes
+  $ calvin-and-hobbes-quotes -s                   # speaks a random quote with cowsay
 ```
 
 ## Contributing
