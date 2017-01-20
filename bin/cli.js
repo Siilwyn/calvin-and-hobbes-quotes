@@ -30,6 +30,7 @@ if (argv.say) {
         text: wrap(core.random()),
         f: path.join(__dirname, 'calvin.cow')
     }));
-} else {
-    console.log(core.random());
+    process.exit();
 }
+
+console.log(core.random());
