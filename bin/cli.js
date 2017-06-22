@@ -16,16 +16,19 @@ const argv = minimist(process.argv.slice(2), {
 });
 
 if (argv.help) {
+    // eslint-disable-next-line no-console
     console.log(usage);
     process.exit();
 }
 
 if (argv.all) {
+    // eslint-disable-next-line no-console
     console.log(core.all);
     process.exit();
 }
 
 if (argv.say) {
+    // eslint-disable-next-line no-console
     console.log(
         cowsay.say({
             text: wrap(core.random()),
@@ -35,4 +38,5 @@ if (argv.say) {
     process.exit();
 }
 
+// eslint-disable-next-line no-console
 console.log(core.random());

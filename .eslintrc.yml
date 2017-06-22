@@ -20,10 +20,6 @@ rules:
   linebreak-style:
     - warn
     - unix
-  no-console:
-    - warn
-  no-sync:
-    - error
   no-var:
     - warn
   semi:
