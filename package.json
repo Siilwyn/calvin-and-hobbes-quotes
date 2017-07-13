@@ -20,7 +20,7 @@
   "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.21.0",
     "eslint": "^4.0.0"
   },
   "dependencies": {
