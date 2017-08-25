@@ -2,30 +2,36 @@
   "name": "calvin-and-hobbes-quotes",
   "version": "1.1.0",
   "description": "Get Calvin and Hobbes quotes",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Siilwyn/calvin-and-hobbes-quotes.git"
-  },
-  "bin": "bin/cli.js",
   "main": "src/index.js",
-  "scripts": {
-    "test": "ava ./src/test.js",
-    "lint": "eslint ./src/ ./bin/"
-  },
-  "keywords": [
-    "calvin",
-    "hobbes",
-    "quotes"
+  "bin": "bin/cli.js",
+  "files": [
+    "bin",
+    "src/index.js",
+    "src/quotes.json"
   ],
-  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
-  "license": "MIT",
-  "devDependencies": {
-    "ava": "^0.21.0",
-    "eslint": "^4.0.0"
+  "scripts": {
+    "test": "ava src/test.js",
+    "lint": "eslint src bin",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "dependencies": {
     "cowsay": "^1.1.9",
     "minimist": "^1.2.0",
     "wordwrap": "^1.0.0"
-  }
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siilwyn/calvin-and-hobbes-quotes.git"
+  },
+  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
+  "license": "MIT",
+  "keywords": [
+    "calvin",
+    "hobbes",
+    "quotes"
+  ]
 }
