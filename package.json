@@ -12,7 +12,8 @@
   "scripts": {
     "test": "ava src/test.js",
     "lint": "eslint src bin",
-    "postversion": "git push --follow-tags && npm publish"
+    "postversion": "git push --follow-tags && npm publish",
+    "ci": "npm test && npm run lint -- --max-warnings 0"
   },
   "dependencies": {
     "cowsay": "^1.1.9",
