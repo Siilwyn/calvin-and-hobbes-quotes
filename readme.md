@@ -1,5 +1,7 @@
 # Calvin and Hobbes quotes
-[![Build Status](https://img.shields.io/travis/Siilwyn/calvin-and-hobbes-quotes/master.svg?style=flat-square)](https://travis-ci.org/Siilwyn/calvin-and-hobbes-quotes)
+[![Travis Build Status][travis-icon]][travis]
+[![LGTM Grade][lgtm-icon]][lgtm]
+[![npm][npm-icon]][npm]
 
 The quote list is just a [JSON file](src/quotes.json) and can be used wherever.  
 *I tried picking quotes that are not too lengthy and that don't need context.*
@@ -63,3 +65,10 @@ Want to add a quote? Make sure the quote is present in the original comics and u
 ___
 
 *Inspired by reading Calvin and Hobbes and bumping into [cat-names](https://github.com/sindresorhus/cat-names) and [random-tree-names](https://github.com/pguth/random-tree-names/).*
+
+[travis]: https://travis-ci.org/Siilwyn/calvin-and-hobbes-quotes
+[travis-icon]: https://img.shields.io/travis/Siilwyn/calvin-and-hobbes-quotes/master.svg?style=flat-square
+[lgtm]: https://lgtm.com/projects/g/Siilwyn/calvin-and-hobbes-quotes/
+[lgtm-icon]: https://img.shields.io/lgtm/grade/javascript/g/Siilwyn/calvin-and-hobbes-quotes.svg?style=flat-square
+[npm]: https://www.npmjs.com/package/calvin-and-hobbes-quotes
+[npm-icon]: https://img.shields.io/npm/v/calvin-and-hobbes-quotes.svg?style=flat-square
