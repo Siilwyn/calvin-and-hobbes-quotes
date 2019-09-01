@@ -21,8 +21,8 @@
     "wordwrap": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^1.0.0",
-    "eslint": "^5.0.0"
+    "ava": "^2.0.0",
+    "eslint": "^6.0.0"
   },
   "repository": {
     "type": "git",
