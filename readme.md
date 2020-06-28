@@ -66,8 +66,8 @@ ___
 
 *Inspired by reading Calvin and Hobbes and bumping into [cat-names](https://github.com/sindresorhus/cat-names) and [random-tree-names](https://github.com/pguth/random-tree-names/).*
 
-[travis]: https://travis-ci.org/Siilwyn/calvin-and-hobbes-quotes
-[travis-icon]: https://img.shields.io/travis/Siilwyn/calvin-and-hobbes-quotes/master.svg?style=flat-square
+[travis]: https://travis-ci.com/Siilwyn/calvin-and-hobbes-quotes
+[travis-icon]: https://img.shields.io/travis/com/Siilwyn/calvin-and-hobbes-quotes/master.svg?style=flat-square
 [lgtm]: https://lgtm.com/projects/g/Siilwyn/calvin-and-hobbes-quotes/
 [lgtm-icon]: https://img.shields.io/lgtm/grade/javascript/g/Siilwyn/calvin-and-hobbes-quotes.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/calvin-and-hobbes-quotes
